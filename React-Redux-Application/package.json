@@ -1,0 +1,31 @@
+{
+  "name": "React-Redux-Application",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "mock:api": "backend --watch api/data.json --port 4000"
+  },
+  "dependencies": {
+    "history": "^4.6.3",
+    "nodemon": "^1.18.11",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-json-table": "^0.1.1",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "webpack": "^4.15.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
